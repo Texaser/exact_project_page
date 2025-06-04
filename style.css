@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: #f8fafc;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+header {
+  background: #2563eb;
+  color: #fff;
+  padding: 32px 0 16px 0;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.logo {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.subtitle {
+  font-size: 1.1em;
+  margin-top: 8px;
+  color: #dbeafe;
+}
+.nav-btns {
+  display: flex;
+  gap: 16px;
+  margin: 16px 0 32px 0;
+  justify-content: center;
+}
+.nav-btn {
+  background: #fff;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+}
+.nav-btn:hover {
+  background: #2563eb;
+  color: #fff;
+}
+section {
+  margin-bottom: 40px;
+}
+h2 {
+  color: #2563eb;
+  margin-top: 0;
+}
+.affiliations {
+  font-size: 0.95em;
+  color: #555;
+}
+.table-scroll {
+  overflow-x: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+  margin-top: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+th, td {
+  border: 1px solid #e5e7eb;
+  padding: 8px 12px;
+  text-align: center;
+}
+th {
+  background: #eff6ff;
+  color: #2563eb;
+}
+pre {
+  background: #f1f5f9;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+footer {
+  background: #e0e7ef;
+  color: #222;
+  text-align: center;
+  padding: 16px 0;
+  font-size: 0.95em;
+}
+a {
+  color: #2563eb;
+}
+a:hover {
+  text-decoration: underline;
+} 
