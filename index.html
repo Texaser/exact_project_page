@@ -36,7 +36,7 @@
   <script src="./visualizer/data/data_public.js" defer></script>
 
   <style>
-    .no-sort {
+    .js-sort-none {
         cursor: default;
         pointer-events: none;
         background-image: none !important; /* Remove the sort arrow */
@@ -244,19 +244,19 @@
     <table class="js-sort-table" id="results" style="margin-left: auto; margin-right: auto;">
       <thead>
         <tr>
-          <th rowspan="2" class="no-sort" style="vertical-align: middle; width: 50px;" data-js-sort-colNum="none"><strong>#</strong></th>
-          <th rowspan="2" class="no-sort" style="vertical-align: middle; width: 210px;" data-js-sort-colNum="none"><strong>Model</strong></th>
-          <th rowspan="2" style="vertical-align: middle; width: 110px;" data-js-sort-colNum="2"><strong>Frames</strong></th>
-          <th rowspan="2" style="vertical-align: middle; width: 110px;" data-js-sort-colNum="3"><strong>Overall (%)</strong></th>
-          <th colspan="6" style="vertical-align: middle; width: 600px;" data-js-sort-colNum="5"><strong>Results by Domain (%)</strong></th>
+          <th rowspan="2" class="js-sort-none" style="vertical-align: middle; width: 50px;" data-js-sort-colNum="none"><strong>#</strong></th>
+          <th rowspan="2" class="js-sort-none" style="vertical-align: middle; width: 210px;" data-js-sort-colNum="none"><strong>Model</strong></th>
+          <th rowspan="2" class="js-sort-number" style="vertical-align: middle; width: 110px;" data-js-sort-colNum="2"><strong>Frames</strong></th>
+          <th rowspan="2" class="js-sort-number" style="vertical-align: middle; width: 110px;" data-js-sort-colNum="3"><strong>Overall (%)</strong></th>
+          <th colspan="6" class="js-sort-none" style="vertical-align: middle; width: 600px;" data-js-sort-colNum="none"><strong>Results by Domain (%)</strong></th>
         </tr>
         <tr>
-          <th style="background-color: #f7f7f7; width: 100px;" data-js-sort-colNum="4"><strong>Sports</strong></th>
-          <th style="background-color: #f7f7f7; width: 100px; white-space: nowrap;" data-js-sort-colNum="5"><strong>Bike Repair</strong></th>
-          <th style="background-color: #f7f7f7; width: 100px;" data-js-sort-colNum="6"><strong>Cooking</strong></th>
-          <th style="background-color: #f7f7f7; width: 100px;" data-js-sort-colNum="7"><strong>Health</strong></th>
-          <th style="background-color: #f7f7f7; width: 100px;" data-js-sort-colNum="8"><strong>Music</strong></th>
-          <th style="background-color: #f7f7f7; width: 100px;" data-js-sort-colNum="9"><strong>Dance</strong></th>
+          <th class="js-sort-number" style="background-color: #f7f7f7; width: 100px;" data-js-sort-colNum="4"><strong>Sports</strong></th>
+          <th class="js-sort-number" style="background-color: #f7f7f7; width: 100px; white-space: nowrap;" data-js-sort-colNum="5"><strong>Bike Repair</strong></th>
+          <th class="js-sort-number" style="background-color: #f7f7f7; width: 100px;" data-js-sort-colNum="6"><strong>Cooking</strong></th>
+          <th class="js-sort-number" style="background-color: #f7f7f7; width: 100px;" data-js-sort-colNum="7"><strong>Health</strong></th>
+          <th class="js-sort-number" style="background-color: #f7f7f7; width: 100px;" data-js-sort-colNum="8"><strong>Music</strong></th>
+          <th class="js-sort-number" style="background-color: #f7f7f7; width: 100px;" data-js-sort-colNum="9"><strong>Dance</strong></th>
         </tr>
       </thead>
       <tbody>
@@ -456,8 +456,6 @@
           <td style="vertical-align: middle;">53.98</td>
         </tr>
 
-
-        <tr></tr>
       </tbody>                                              
   </table> 
 
